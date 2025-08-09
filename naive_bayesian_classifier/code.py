@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+import os 
+os.chdir("D:/ml-algorithms-beginners/naive_bayesian_classifier")
 
 X_train = np.genfromtxt("20newsgroup_words_train.csv", delimiter = ",", dtype = int)
 y_train = np.genfromtxt("20newsgroup_labels_train.csv", delimiter = ",", dtype = int)

@@ -4,6 +4,8 @@ import numpy as np
 import scipy.linalg as linalg
 import scipy.spatial.distance as dt
 import scipy.stats as stats
+import os 
+os.chdir("D:/ml-algorithms-beginners/expectation_maximization")
 
 group_means = np.array([[-5.0, +0.0],
                         [+0.0, +5.0],
